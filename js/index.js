@@ -3,9 +3,9 @@
 
 
      const imagesList = [
-           "../img/solar.jpg",
-           "../img/wind.jpg",
-           "../img/forest.jpg"
+           "./img/solar.jpg",
+           "./img/wind.jpg",
+           "./img/forest.jpg"
         ];
 
      const images = [];
@@ -34,7 +34,7 @@
      trees: {
          heading: "Forestry",
          bodyText: "Forestry is the science and craft of creating, managing, using, conserving, and repairing forests, woodlands, and associated resources to meet desired goals, needs, and values for human and environment benefits.",
-         imgURL: "../img/forest.jpg",
+         imgURL: "./img/forest.jpg",
          imgALT: "Forest",
          tagline: "\"Trees for a green tomorrow.\""
      },
@@ -42,14 +42,14 @@
      wind: {
          heading: "Wind Power",
          bodyText: "Wind power is the use of air flow through wind turbines to provide the mechanical power to turn electric generators. Wind power, as an alternative to burning fossil fuels, is plentiful, renewable, widely distributed, clean, produces no greenhouse gas emissions during operation, consumes no water, and uses little land.",
-         imgURL: "../img/wind.jpg",
+         imgURL: "./img/wind.jpg",
          imgALT: "Wind Turbine",
          tagline: "\"Ever blowing, ever changing.\""
      },
      solar: {
          heading: "Solar Power",
          bodyText: "Solar power is the conversion of energy from sunlight into electricity, either directly using photovoltaics (PV), indirectly using concentrated solar power, or a combination. Concentrated solar power systems use lenses or mirrors and tracking systems to focus a large area of sunlight into a small beam. Photovoltaic cells convert light into an electric current using the photovoltaic effect",
-         imgURL: "../img/solar.jpg",
+         imgURL: "./img/solar.jpg",
          imgALT: "Solar Panel",
          tagline: "\"Travelling over 8 minutes through space to warm our planet.\""
      }
